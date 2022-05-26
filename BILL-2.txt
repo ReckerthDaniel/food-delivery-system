@@ -1,0 +1,208 @@
+Order 4, clientId=2, orderDate=26-05-2022 22:15:37
+[Smoked Caviar and Hummus on Pita Toasts 
+   id=4
+   rating=5.0
+   calories=23
+   protein=1
+   fat=2
+   sodium=49
+   price=79
+, Red Pepper Sauce 
+   id=14
+   rating=4.375
+   calories=24
+   protein=1
+   fat=0
+   sodium=253
+   price=62
+]
+Total price: 141
+Order 5, clientId=2, orderDate=26-05-2022 22:15:43
+["Endive ""Spoons"" with Lemon-Herb Goat Cheese "
+   id=15
+   rating=4.375
+   calories=24
+   protein=1
+   fat=2
+   sodium=35
+   price=50
+, Toasted Corn Crisps 
+   id=16
+   rating=2.5
+   calories=24
+   protein=0
+   fat=2
+   sodium=37
+   price=66
+, Classic Salad 
+   id=17
+   rating=4.375
+   calories=24
+   protein=2
+   fat=1
+   sodium=56
+   price=49
+]
+Total price: 165
+Order 6, clientId=2, orderDate=26-05-2022 22:15:49
+[Master Stock Chicken 
+   id=18
+   rating=3.75
+   calories=25
+   protein=2
+   fat=1
+   sodium=61
+   price=72
+, Fish Stock 
+   id=19
+   rating=5.0
+   calories=25
+   protein=4
+   fat=1
+   sodium=124
+   price=27
+]
+Total price: 99
+Order 7, clientId=2, orderDate=26-05-2022 22:15:55
+[Quatre-Épices 
+   id=22
+   rating=5.0
+   calories=25
+   protein=1
+   fat=0
+   sodium=2
+   price=81
+, Steamed Mussels with Tomato and Chorizo Broth 
+   id=23
+   rating=5.0
+   calories=25
+   protein=2
+   fat=1
+   sodium=65
+   price=42
+, South American-Style Jícama and Orange Salad 
+   id=24
+   rating=3.125
+   calories=26
+   protein=1
+   fat=0
+   sodium=364
+   price=25
+]
+Total price: 148
+Order 9, clientId=2, orderDate=26-05-2022 22:20:13
+[Fish Stock 
+   id=19
+   rating=5.0
+   calories=25
+   protein=4
+   fat=1
+   sodium=124
+   price=27
+, White Fish Stock 
+   id=300
+   rating=0.0
+   calories=56
+   protein=10
+   fat=1
+   sodium=216
+   price=15
+]
+Total price: 42
+Order 10, clientId=2, orderDate=26-05-2022 22:20:24
+[Red and Green Tomato Salsa 
+   id=8
+   rating=3.125
+   calories=23
+   protein=1
+   fat=0
+   sodium=552
+   price=38
+, The Original Three-Ingredient Rub 
+   id=9
+   rating=0.0
+   calories=23
+   protein=1
+   fat=1
+   sodium=6
+   price=47
+, Shrimp Sates with Spiced Pistachio Chutney 
+   id=10
+   rating=3.75
+   calories=23
+   protein=1
+   fat=2
+   sodium=4
+   price=78
+]
+Total price: 163
+Order 11, clientId=2, orderDate=26-05-2022 22:20:37
+[Green-Peppercorn Cornmeal Crackers 
+   id=67
+   rating=5.0
+   calories=32
+   protein=1
+   fat=2
+   sodium=53
+   price=42
+, Seared Steak Lettuce Cups 
+   id=68
+   rating=5.0
+   calories=32
+   protein=3
+   fat=2
+   sodium=70
+   price=41
+, Salsa Criolla 
+   id=69
+   rating=5.0
+   calories=32
+   protein=1
+   fat=1
+   sodium=435
+   price=28
+]
+Total price: 111
+Order 12, clientId=2, orderDate=26-05-2022 22:20:42
+[Green-Peppercorn Cornmeal Crackers 
+   id=67
+   rating=5.0
+   calories=32
+   protein=1
+   fat=2
+   sodium=53
+   price=42
+, Seared Steak Lettuce Cups 
+   id=68
+   rating=5.0
+   calories=32
+   protein=3
+   fat=2
+   sodium=70
+   price=41
+, Salsa Criolla 
+   id=69
+   rating=5.0
+   calories=32
+   protein=1
+   fat=1
+   sodium=435
+   price=28
+, Fresh Green Salsa (Salsa verde cruda) 
+   id=70
+   rating=5.0
+   calories=32
+   protein=1
+   fat=1
+   sodium=959
+   price=99
+, Phyllo Pecan Crisps 
+   id=71
+   rating=5.0
+   calories=32
+   protein=0
+   fat=2
+   sodium=9
+   price=56
+]
+Total price: 266

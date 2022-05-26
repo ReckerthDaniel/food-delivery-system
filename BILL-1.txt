@@ -1,0 +1,92 @@
+Order 0, clientId=1, orderDate=26-05-2022 22:14:57
+[Smoked Caviar and Hummus on Pita Toasts 
+   id=4
+   rating=5.0
+   calories=23
+   protein=1
+   fat=2
+   sodium=49
+   price=79
+, Barbecued Shrimp 
+   id=5
+   rating=3.75
+   calories=23
+   protein=4
+   fat=0
+   sodium=205
+   price=71
+]
+Total price: 150
+Order 1, clientId=1, orderDate=26-05-2022 22:15:02
+[Smoked Caviar and Hummus on Pita Toasts 
+   id=4
+   rating=5.0
+   calories=23
+   protein=1
+   fat=2
+   sodium=49
+   price=79
+, Cilantro-Tomato Salsa 
+   id=6
+   rating=3.75
+   calories=23
+   protein=1
+   fat=0
+   sodium=7
+   price=32
+]
+Total price: 111
+Order 2, clientId=1, orderDate=26-05-2022 22:15:08
+[Smoked Caviar and Hummus on Pita Toasts 
+   id=4
+   rating=5.0
+   calories=23
+   protein=1
+   fat=2
+   sodium=49
+   price=79
+, Red and Green Tomato Salsa 
+   id=8
+   rating=3.125
+   calories=23
+   protein=1
+   fat=0
+   sodium=552
+   price=38
+, The Original Three-Ingredient Rub 
+   id=9
+   rating=0.0
+   calories=23
+   protein=1
+   fat=1
+   sodium=6
+   price=47
+]
+Total price: 164
+Order 3, clientId=1, orderDate=26-05-2022 22:15:26
+[Shrimp Sates with Spiced Pistachio Chutney 
+   id=10
+   rating=3.75
+   calories=23
+   protein=1
+   fat=2
+   sodium=4
+   price=78
+, Coriander-Herb Spice Rub 
+   id=11
+   rating=3.75
+   calories=24
+   protein=1
+   fat=1
+   sodium=1911
+   price=51
+, Arugula Salad with Heirloom Tomatoes and Red Onion 
+   id=12
+   rating=2.5
+   calories=24
+   protein=1
+   fat=0
+   sodium=12
+   price=21
+]
+Total price: 150

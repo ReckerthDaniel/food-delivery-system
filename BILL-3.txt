@@ -1,0 +1,41 @@
+Order 8, clientId=3, orderDate=26-05-2022 22:16:06
+[Potato Samosa Tartlets 
+   id=21
+   rating=3.75
+   calories=25
+   protein=0
+   fat=1
+   sodium=26
+   price=82
+]
+Total price: 82
+Order 13, clientId=3, orderDate=26-05-2022 22:21:54
+[Fish Stock 
+   id=19
+   rating=5.0
+   calories=25
+   protein=4
+   fat=1
+   sodium=124
+   price=27
+]
+Total price: 27
+Order 14, clientId=3, orderDate=26-05-2022 22:22:10
+[Cilantro-Tomato Salsa 
+   id=6
+   rating=3.75
+   calories=23
+   protein=1
+   fat=0
+   sodium=7
+   price=32
+, Cauliflower-Leek Purée 
+   id=7
+   rating=3.125
+   calories=23
+   protein=2
+   fat=0
+   sodium=149
+   price=13
+]
+Total price: 45
