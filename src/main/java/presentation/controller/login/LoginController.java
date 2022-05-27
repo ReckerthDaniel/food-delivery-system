@@ -4,6 +4,7 @@ import business.IDeliveryServiceProcessing;
 import business.User;
 import business.UserService;
 import business.enums.Role;
+import data.Serializer;
 import presentation.controller.admin.AdminController;
 import presentation.controller.client.ClientController;
 import presentation.controller.employee.EmployeeController;
@@ -85,6 +86,7 @@ public class LoginController {
       User user = new User(username, password, role);
       if (iDeliveryServiceProcessing.getUserService().register(user)) {
         loginView.showMessage("User created successfully", JOptionPane.INFORMATION_MESSAGE);
+        Serializer.serialize(iDeliveryServiceProcessing);
       } else {
         loginView.showMessage("Username taken or empty fields!", JOptionPane.ERROR_MESSAGE);
       }

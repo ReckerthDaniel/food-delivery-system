@@ -2,13 +2,14 @@ package business;
 
 import business.enums.Role;
 
+import java.io.Serializable;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
 
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserService, Serializable {
   Set<User> users;
 
   public UserServiceImpl() {
@@ -44,6 +45,11 @@ public class UserServiceImpl implements UserService {
             .findFirst();
 
     return byId.orElseThrow(() -> new IllegalArgumentException("Client not found"));
+  }
+
+  @Override
+  public Set<User> getUsers() {
+    return users;
   }
 
   private String encodePassword(String password) {

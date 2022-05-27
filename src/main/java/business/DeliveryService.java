@@ -36,7 +36,7 @@ public class DeliveryService implements IDeliveryServiceProcessing {
   @Override
   public void importInitialSetOfProducts(String filePath) throws IOException {
     assert filePath != null;
-    menu = FileReader.importProductsFromCsv(filePath);
+    menu = FileReader.importProductsFromCsvUsingStreams(filePath);
   }
 
   @Override

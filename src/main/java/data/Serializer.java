@@ -27,11 +27,29 @@ public class Serializer {
       FileInputStream file = new FileInputStream("file.ser");
       ObjectInputStream in = new ObjectInputStream(file);
       deliveryService = (IDeliveryServiceProcessing) in.readObject();
+      // reset the static variables for id as they were not serialized
+      if(deliveryService.getMenu() != null) {
+        Utils.menuItemId = deliveryService.getMenu().size();
+      } else {
+        Utils.menuItemId = 0;
+      }
+
+      if(deliveryService.getOrders() != null) {
+        Utils.orderId = deliveryService.getOrders().size();
+      } else {
+        Utils.orderId = 0;
+      }
+
+      if(deliveryService.getUserService().getUsers() != null) {
+        Utils.userId = deliveryService.getUserService().getUsers().size();
+      } else {
+        Utils.userId = 0;
+      }
       System.out.println("Object has been deserialized");
       in.close();
       file.close();
       return deliveryService;
-    } catch (IOException ex) {
+    } catch (IOException | ClassNotFoundException ex) {
       System.out.println("IOException is caught");
       UserService userService = new UserServiceImpl();
       userService.register(new User("admin", "admin", Role.ADMIN));
@@ -39,12 +57,12 @@ public class Serializer {
       userService.register(new User("client1", "client1", Role.CLIENT));
       userService.register(new User("client2", "client2", Role.CLIENT));
       userService.register(new User("employee", "employee", Role.EMPLOYEE));
+      Utils.menuItemId = 0;
+      Utils.orderId = 0;
+      Utils.userId = 0;
       deliveryService = new DeliveryService(userService);
       serialize(deliveryService);
       return deliveryService;
-    } catch (ClassNotFoundException ex) {
-      System.out.println("ClassNotFoundException is caught");
-      return new DeliveryService(new UserServiceImpl());
     }
   }
 }

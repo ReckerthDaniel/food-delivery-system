@@ -3,6 +3,7 @@ package data;
 import business.composite.BaseProduct;
 import business.composite.MenuItem;
 
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.LinkedHashSet;
@@ -33,5 +34,19 @@ public class FileReader {
     }
   }
 
+  public static Set<MenuItem> importProductsFromCsvUsingStreams(String filePath) throws IOException {
+    Set<MenuItem> menuItems = new LinkedHashSet<>();
+    try (BufferedReader br = new BufferedReader(new java.io.FileReader(filePath))) {
+      br.lines().skip(1).map(line -> line.split(","))
+              .map(values -> new BaseProduct(values[0], Double.parseDouble(values[1]), Integer.parseInt(values[2]), Integer.parseInt(values[3]), Integer.parseInt(values[4]), Integer.parseInt(values[5]), Integer.parseInt(values[6])))
+              .forEach(item -> {
+                if (!menuItems.add(item)) {
+                  Utils.menuItemId--;
+                }
+              });
+    }
+
+    return menuItems;
+  }
 }
 
